@@ -15,6 +15,7 @@
 		823857E81F0C91040099BADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823857E61F0C91040099BADA /* LaunchScreen.storyboard */; };
 		823857F31F0C91040099BADA /* _7testObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 823857F21F0C91040099BADA /* _7testObjCTests.m */; };
 		823857FE1F0C91040099BADA /* _7testObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 823857FD1F0C91040099BADA /* _7testObjCUITests.m */; };
+		8238580D1F0C92D80099BADA /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8238580C1F0C92D80099BADA /* PageContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		823857F91F0C91040099BADA /* 17testObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 17testObjCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		823857FD1F0C91040099BADA /* _7testObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _7testObjCUITests.m; sourceTree = "<group>"; };
 		823857FF1F0C91040099BADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8238580B1F0C92D80099BADA /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		8238580C1F0C92D80099BADA /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				823857E61F0C91040099BADA /* LaunchScreen.storyboard */,
 				823857E91F0C91040099BADA /* Info.plist */,
 				823857D81F0C91040099BADA /* Supporting Files */,
+				8238580B1F0C92D80099BADA /* PageContentViewController.h */,
+				8238580C1F0C92D80099BADA /* PageContentViewController.m */,
 			);
 			path = 17testObjC;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				823857E01F0C91040099BADA /* ViewController.m in Sources */,
+				8238580D1F0C92D80099BADA /* PageContentViewController.m in Sources */,
 				823857DD1F0C91040099BADA /* AppDelegate.m in Sources */,
 				823857DA1F0C91040099BADA /* main.m in Sources */,
 			);
